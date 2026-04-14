@@ -1,5 +1,5 @@
 {
-  "name": "innovation-hub-bot",
+  "name": "dipesh-personal-clone",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,3 +10,4 @@
     "axios": "^1.6.7"
   }
 }
+
