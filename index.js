@@ -39,7 +39,7 @@ client.on('message', async msg => {
 
         // STEP 4: Groq API Call (NAYA WORKING MODEL LAGA DIYA HAI)
         const response = await axios.post('https://api.groq.com/openai/v1/chat/completions', {
-            model: 'llama3-8b-8192', // <-- YAHI PROBLEM THI, AB FIX HO GAYI
+            model: 'llama-3.1-8b-instant', // <-- YAHI PROBLEM THI, AB FIX HO GAYI
             messages: [
                 {
                     role: 'system',
