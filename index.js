@@ -6,7 +6,7 @@ const client = new Client({
 });
 
 // TERI WORKING KEY
-const GROQ_API_KEY = "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";
+const GROQ_API_KEY = "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";
 const MODEL_NAME = "llama-3.3-70b-versatile";
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
